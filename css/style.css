@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+header{
+    height: 100px;
+    background:color #500005;
+    color: orange;
+}
+header{
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+}
+.logo{
+    width:100px;   
+}
+.menu{
+    flex:2;
+    background-color: red;
+    justify-content:flex-end;
+}
+.logoimg{
+    width: 100px;
+    height: 100px;
+    background-color: #828756;
+}
